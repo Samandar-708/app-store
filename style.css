@@ -1,0 +1,1306 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    height: 1000px;
+    background: rgb(254, 252, 255);
+
+}
+
+.container .navbar
+{
+    width: 100%;
+    height: 40px;
+    background: #35B8BE;
+}
+.container .navbar h3 
+{
+display: flex;
+justify-content: center;
+padding: 7px;
+font-size: 14px;
+font-weight: 500;
+}
+
+.container .navbar h3 p
+{
+    position: relative;
+    left: 15px;
+    font-weight: 500;
+    font-size: 17px;
+    
+}
+
+.navbar2
+{
+    width: 100%;
+    height: 80px;
+    background: silver;
+}
+
+.navbar2 ul 
+{
+    position: relative;
+    width: 70%;
+    height: 60px;
+    
+    margin: 1px auto;
+    display: flex;
+    justify-content: space-around;  
+    top: -52px;  
+    left: 9rem;
+}
+
+
+.navbar2 ul li
+{
+    position: relative;
+    top: 20px;
+    list-style-type: none;
+    left: 180px;
+}
+
+.navbar2 ul li a:nth-child(1)
+{
+    color: #35B8BE;
+}
+
+.navbar2 ul span
+{
+    position: relative;
+    width: 100px;
+    height: 70px;
+    left: 90px;
+}
+
+
+
+.navbar2 ul span img:nth-child(1)
+{
+    position: relative;
+    top: 2px;
+}
+
+.navbar2 ul span img:nth-child(2)
+{
+    position: relative;
+    left: -43px;
+    top: -15px;
+}
+
+.navbar2 ul span img:nth-child(3)
+{
+    position:absolute;
+    width: 60px;
+    height: 60px;
+    left:26px;
+    top: -17px;
+}
+
+.navbar2 .imgg
+{
+    position: relative;
+   width: 15%;
+   height: 60px;
+   
+   top: 9px;
+   left: 9rem;
+}
+
+.navbar2 .imgg img
+{
+    position: relative;
+    top: 5px;
+}
+
+.navbar2 ul span p
+{
+    position: relative;
+    top: -61px;
+    left: 46px;
+}
+
+.service
+{
+    width:100%;
+    height: 700px;
+}
+
+.service .text_service
+{
+    position: absolute;
+    width: 40%;
+    height: 500px;
+    left: 5%;
+    top: 30%;
+}
+
+.service img
+{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+.service .text_service h1
+{
+    position: relative;
+    padding: 40px;
+    font-weight: 500;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
+.service .text_service span
+{
+    color: #35B8BE;
+}
+
+.service .text_service p
+{
+    position: relative;
+    width: 85%;
+
+    height: 80px;
+    top: -20px;
+    left: 40px;
+}
+
+.service .text_service button
+{
+    position: relative;
+    width: 25%;
+    height: 50px;
+    background: #35B8BE;
+    outline: none;
+    border: none;
+    left: 40px;
+    border-radius: 7px;
+    color: white;
+}
+
+.service .text_service .icon 
+{
+    position: relative;
+    width: 400px;
+    height: 50px;
+    top: 20px;
+    left: 40px;
+    display: flex;
+}
+
+.service .text_service .icon img
+{
+    position:relative;
+    width: 25px;
+    height: 25px;
+    left:0px ;
+    top: 0;
+}
+
+.service .text_service .icon h3
+{
+    position: relative;
+    font-size: 15px;
+    left: 5px;
+    top: 5px;
+    letter-spacing: 2px;
+}
+
+.service .text_service .icon h4
+{
+    position: relative;
+    top: 30px;
+    left: -107px;
+    font-size: 13px;
+    display: flex;
+}
+
+.service .text_service .icon h4 a
+{
+   
+    color: rgb(150, 149, 149);
+}
+
+.service .text_service .icon h5
+{
+    position: relative;
+    top: 30px;
+    left: -98px;
+    color: rgb(150, 149, 149);
+}
+
+.service-2
+{
+    width: 100%;
+    height: 700px;
+}
+
+.tx_ser
+{
+    position: relative;
+    width: 30%;
+    height: 500px;
+    left: 10%;
+    top: 15%;
+    
+}
+
+.tx_ser h1
+{
+    position: relative;
+    color: #35B8BE;
+    font-weight: 500;
+    width: 400px;
+    height: 150px;
+    font-size: 30px;
+    top: 150px;
+    font-size: 55px;
+}
+
+.tx_ser p
+{
+    position: relative;
+    width: 90%;
+    height: 80px;
+    color: silver;
+    top: 150px;
+}
+
+.tx_ser button
+{
+    position: relative;
+    width: 30%;
+    height: 50px;
+    background: #35B8BE;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    top: 180px;
+}
+
+.service-2 .pic
+{
+    position: relative;
+    width: 35%;
+    height: 600px;
+    
+    left: 50%;
+    top: -60%;
+}
+
+.service-2 .pic img
+{
+    position: absolute;
+    width: 90%;
+    top: 15px;
+}
+
+.How_it_works
+{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+
+.How_it_works  h1
+{
+    position: relative;
+    width: 320px;
+    height: 80px;
+    font-weight: 500;
+    color:#35B8BE;
+    font-size: 45px;
+    letter-spacing: 2px;
+    justify-content: center;
+    left: 39%;
+    top: 30px;
+    z-index: 222;
+    padding: 10px 20px;
+    
+}
+
+.pic-3
+{
+    position: relative;
+    width: 22%;
+    height: 400px;
+    left: -230px;
+    top: 170px;
+}
+
+.pic-2
+{
+    position: relative;
+    width:22%;
+    height: 400px;
+    top: 170px;
+    left: -60px;
+}
+
+.pic-1
+{
+    position: relative;
+    width: 22%;
+    height: 400px;
+    top: 170px;
+    left:100px;
+}
+
+.pic-3 img
+{
+    width: 70%;
+    position: absolute;
+    left: 40px;
+}
+
+
+.pic-2 img
+{
+    width: 70%;
+    position: absolute;
+    left: 40px;
+}
+
+.pic-1 img
+{
+    width: 70%;
+    position: absolute;
+    left: 55px;
+}
+
+.pic-3 h2
+{
+    position: relative;
+    width: 70%;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    top: 50%;
+    left: 55px;
+}
+
+.pic-2 h2
+{
+    position: relative;
+    width: 90%;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    top: 50%;
+    left: 30px;
+}
+
+.pic-1 h2
+{
+    position: relative;
+    top: 50%;
+    width: 80%;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    left: 50px;
+}
+
+.pic-3 p
+{
+    position: relative;
+    width: 85%;
+    height: 80px;
+    top: 52%;
+    text-align: center;
+    left: 20px;
+    color: #546285;
+}
+
+.pic-2 p
+{
+    position: relative;
+    width: 85%;
+    height: 80px;
+    top: 52%;
+    text-align: center;
+    left: 23px;
+    color: #546285;
+}
+
+.pic-1 p
+{
+    position: relative;
+    width: 85%;
+    height: 80px;
+    top: 52%;
+    text-align: center;
+    left: 25px;
+    color: #546285;
+}
+
+
+.browse_our_menu
+{
+    width: 100%;
+    height: 1100px;
+    position: relative;
+    top: -10px;
+}
+
+
+.browse_our_menu h1
+{
+    width: 27%;
+    height: 80px;
+    font-size: 46px;
+    font-weight: 500;
+    color: #35B8BE;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.browse_our_menu p
+{
+    width: 30%;
+    height: 50px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px 20px;
+    color: #546285;
+}
+
+.browse_our_menu .btn
+{
+    width: 35%;
+    height: 65px;
+    margin: 35px auto;
+    padding:4px ;
+}
+
+.browse_our_menu .btn button
+{
+    width: 23%;
+    height:54px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+
+.browse_our_menu .btn button:nth-child(1)
+{
+    position: relative;
+   background: #35B8BE;
+   color: white;
+   left: 25px;
+
+}
+
+.browse_our_menu .btn button:nth-child(2)
+{
+  position: relative;
+  left: 65px;
+
+}
+
+.browse_our_menu .btn button:nth-child(3)
+{
+  position: relative;
+  left: 115px;
+
+}
+
+.browse_our_menu .burger_type
+{
+    width: 70%;
+    height: 760px;
+    margin: 0px auto;
+    
+}
+
+.browse_our_menu .burger_card
+{
+    position: relative;
+    width: 48.5%;
+    height: 200px;
+    border-radius: 7px;
+}
+
+.browse_our_menu .burger_card h3
+{
+    position: relative;
+    top: -168px;
+    left: 170px;
+    font-weight: 550;
+}
+
+.browse_our_menu .burger_card a
+{
+    position: relative;
+    top: -190px;
+    left: 439px;
+    
+    font-size: 14px;
+}
+
+.browse_our_menu .burger_card h4
+{
+    position: relative;
+    width: 65%;
+    height: 50px;
+    font-weight: 500;
+    top: -164px;
+    left: 170px;
+    color: #546285;
+}
+
+.browse_our_menu .burger_card .bt_1
+{
+    position: relative;
+    width: 8%;
+    height: 40px;
+    background: none;
+    border-radius: 6px;
+    border:  1px solid #BBC4D1;;
+    outline: none;
+    top: -164px;
+    left: 170px;
+    color: black;
+}
+
+.browse_our_menu .burger_card .bt_2
+{
+    position: relative;
+    width: 20%;
+    height: 40px;
+    background:#35B8BE;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-weight: 550;
+    top: -164px;
+    left: 170px;
+}
+
+
+.browse_our_menu .burger_card img
+{
+    padding: 40px 20px;
+}
+
+
+
+
+
+
+
+
+.browse_our_menu  .burger_card_waldo
+{
+    position: relative;
+    width: 48.5%;
+    height: 200px;
+    left: 548px;
+    top: -200px;
+    border-radius: 7px;
+}
+
+
+.browse_our_menu .burger_card_waldo h3
+{
+    position: relative;
+    top: -168px;
+    left: 170px;
+    font-weight: 550;
+}
+
+.browse_our_menu .burger_card_waldo a
+{
+    position: relative;
+    top: -190px;
+    left: 439px;
+    font-size: 14px;
+}
+
+.browse_our_menu .burger_card_waldo h4
+{
+    position: relative;
+    width: 65%;
+    height: 50px;
+    font-weight: 500;
+    top: -164px;
+    left: 170px;
+    color: #546285;
+}
+
+.browse_our_menu .burger_card_waldo .bt_1
+{
+    position: relative;
+    width: 8%;
+    height: 40px;
+    background: none;
+    border-radius: 6px;
+    border: 1px solid  #BBC4D1;;
+    outline: none;
+    top: -164px;
+    left: 170px;
+    color: black;
+}
+
+.browse_our_menu .burger_card_waldo .bt_2
+{
+    position: relative;
+    width: 20%;
+    height: 40px;
+    background: #35B8BE;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-weight: 550;
+    top: -164px;
+    left: 170px;
+}
+
+
+.browse_our_menu .burger_card_waldo img
+{
+    padding: 40px 20px;
+}
+
+
+
+
+.browse_our_menu  .burger_card_cali
+{
+    position: relative;
+    width: 48.5%;
+    height: 200px;
+    top: -180px;
+    border-radius: 7px;
+}
+
+.browse_our_menu .burger_card_cali h3
+{
+    position: relative;
+    top: -168px;
+    left: 170px;
+    font-weight: 550;
+}
+
+.browse_our_menu .burger_card_cali a
+{
+    position: relative;
+    top: -190px;
+    left: 439px;
+    font-size: 14px;
+}
+
+.browse_our_menu .burger_card_cali h4
+{
+    position: relative;
+    width: 65%;
+    height: 50px;
+    font-weight: 500;
+    top: -164px;
+    left: 170px;
+    color: #546285;
+}
+
+.browse_our_menu .burger_card_cali .bt_1
+{
+    position: relative;
+    width: 8%;
+    height: 40px;
+    background: none;
+    border-radius: 6px;
+    border: 1px solid #BBC4D1;
+    outline: none;
+    top: -164px;
+    left: 170px;
+    color: black;
+}
+
+.browse_our_menu .burger_card_cali .bt_2
+{
+    position: relative;
+    width: 20%;
+    height: 40px;
+    background: #35B8BE;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-weight: 550;
+    top: -164px;
+    left: 170px;
+}
+
+
+.browse_our_menu .burger_card_cali img
+{
+    padding: 40px 20px;
+}
+
+
+
+
+
+
+.browse_our_menu  .burger_card_bacon_buddy
+{
+    position: relative;
+    width: 48.5%;
+    height: 200px;
+    top: -380px;
+    left: 548px ;
+    border-radius: 7px;
+}
+
+.browse_our_menu .burger_card_bacon_buddy h3
+{
+    position: relative;
+    top: -168px;
+    left: 170px;
+    font-weight: 550;
+}
+
+.browse_our_menu .burger_card_bacon_buddy a
+{
+    position: relative;
+    top: -190px;
+    left: 439px;
+    font-size: 14px;
+}
+
+.browse_our_menu .burger_card_bacon_buddy h4
+{
+    position: relative;
+    width: 65%;
+    height: 50px;
+    font-weight: 500;
+    top: -164px;
+    left: 170px;
+    color: #546285;
+}
+
+.browse_our_menu .burger_card_bacon_buddy .bt_1
+{
+    position: relative;
+    width: 8%;
+    height: 40px;
+    background:none;
+    border-radius: 6px;
+    border: 1px solid #BBC4D1;
+    outline: none;
+    top: -164px;
+    left: 170px;
+    color: black;
+}
+
+.browse_our_menu .burger_card_bacon_buddy .bt_2
+{
+    position: relative;
+    width: 20%;
+    height: 40px;
+    background: #35B8BE;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-weight: 550;
+    top: -164px;
+    left: 170px;
+}
+
+
+.browse_our_menu .burger_card_bacon_buddy img
+{
+    padding: 40px 20px;
+}
+
+
+
+
+
+
+
+.browse_our_menu  .burger_card_Spicy
+{
+    position: relative;
+    width: 48.5%;
+    height: 200px;
+    top: -360px;
+    border-radius: 7px;
+}
+
+.browse_our_menu .burger_card_Spicy h3
+{
+    position: relative;
+    top: -168px;
+    left: 170px;
+    font-weight: 550;
+}
+
+.browse_our_menu .burger_card_Spicy a
+{
+    position: relative;
+    top: -190px;
+    left: 439px;
+    font-size: 14px;
+}
+
+.browse_our_menu .burger_card_Spicy h4
+{
+    position: relative;
+    width: 65%;
+    height: 50px;
+    font-weight: 500;
+    top: -164px;
+    left: 170px;
+    color: #546285;
+}
+
+.browse_our_menu .burger_card_Spicy .bt_1
+{
+    position: relative;
+    width: 8%;
+    height: 40px;
+    background:none ;
+    border-radius: 6px;
+    border: 1px solid #BBC4D1;
+    outline: none;
+    top: -164px;
+    left: 170px;
+    color: black;
+}
+
+.browse_our_menu .burger_card_Spicy .bt_2
+{
+    position: relative;
+    width: 20%;
+    height: 40px;
+    background: #35B8BE;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-weight: 550;
+    top: -164px;
+    left: 170px;
+}
+
+
+.browse_our_menu .burger_card_Spicy img
+{
+    padding: 40px 20px;
+}
+
+
+
+
+
+
+.browse_our_menu  .burger_card_Classic
+{
+    position: relative;
+    width: 48.5%;
+    height: 200px;
+    top: -560px;
+    left: 548px;
+    border-radius: 7px;
+}
+
+.browse_our_menu .burger_card_Classic h3
+{
+    position: relative;
+    top: -168px;
+    left: 170px;
+    font-weight: 550;
+}
+
+.browse_our_menu .burger_card_Classic a
+{
+    position: relative;
+    top: -190px;
+    left: 439px;
+    font-size: 14px;
+}
+
+.browse_our_menu .burger_card_Classic h4
+{
+    position: relative;
+    width: 65%;
+    height: 50px;
+    font-weight: 500;
+    top: -164px;
+    left: 170px;
+    color: #546285;
+}
+
+.browse_our_menu .burger_card_Classic .bt_1
+{
+    position: relative;
+    width: 8%;
+    height: 40px;
+    background: none;
+    border-radius: 6px;
+    border: 1px solid #BBC4D1;;
+    outline: none;
+    top: -164px;
+    left: 170px;
+    color: black;
+}
+
+.browse_our_menu .burger_card_Classic .bt_2
+{
+    position: relative;
+    width: 20%;
+    height: 40px;
+    background: #35B8BE;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-weight: 550;
+    top: -164px;
+    left: 170px;
+}
+
+
+.browse_our_menu .burger_card_Classic img
+{
+    padding: 40px 20px;
+}
+
+
+.browse_our_menu .burger_type button
+{
+    position: relative;
+    width: 15%;
+    height: 50px;
+    background: #35B8BE;
+    top: -500px;
+    left: 450px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.container .Order_online_with
+{
+    position: relative; 
+    width: 100%;
+    height: 700px;
+    top: -10px;
+    overflow: hidden;
+    
+}
+
+.container .Order_online_with img
+{
+    position: relative;
+    width: 35%;
+    top: 100px;
+    left: 260px;
+}
+
+.container .Order_online_with h1
+{
+    position: relative;
+    width: 500px;
+    height: 150px;
+    left: 800px;
+    top: -320px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 45px;
+    color: #35B8BE;
+}
+
+.container .Order_online_with p
+{
+    position: relative;
+    width: 500px;
+    height: 80px;
+    left: 800px;
+    top:-310px ;
+    padding: 5px 8px;
+    color: #546285;
+}
+
+
+.container .Order_online_with button
+{
+    position: relative;
+    width: 150px;
+    height: 55px;
+    left: 805px;
+    top:-290px ;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: white;
+    background: #35B8BE;
+}
+
+.call_our_store
+{
+    position: relative;
+    top: -10px;
+    width: 100%;
+    height: 800px;
+}
+
+.call_our_store h1
+{
+    position: absolute;
+    width: 450px;
+    height: 200px;
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #35B8BE;
+    left: 170px;
+    top: 290px;
+}
+
+.call_our_store p
+{
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    color: #546285;
+    top: 475px;
+    left: 170px;
+    word-spacing: 2px;
+}
+
+.call_our_store button
+{
+    position: absolute;
+    background: #35B8BE;
+    width: 200px;
+    height: 55px;
+    border-radius: 6px;
+    top: 600px;
+    left: 170px;
+    border: none;
+}
+
+
+.call_our_store img
+{
+    position: absolute;
+    left: 780px;
+    top: 140px;
+}
+
+
+.support_good_food
+{
+    position: relative;
+    top: -10px;
+    width: 100%;
+    height: 700px;
+}
+
+.support_good_food img
+{
+    position:absolute;
+    width: 40%;
+    left: 130px;
+    top: 50px;
+}
+
+.support_good_food_2
+{
+    position: absolute;
+    width: 40%;
+    height: 585px;
+    background: #35B8BE;
+    top: 50px;
+    left: 780px;
+}
+
+.support_good_food_2 h1
+{
+    position: relative;
+    width:70%;
+    height:100px;
+    font-weight: 100;
+    font-size: 45px;
+    color: white;
+    top: 200px;
+    left: 80px;
+    letter-spacing: 2px;
+}
+
+.support_good_food_2 h1 span
+{
+    color: #1B9097;
+}
+
+.support_good_food_2 button
+{
+    position: relative;
+    width: 140px;
+    height: 55px;
+    background: white;
+    color: #35B8BE;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    top: 250px;
+    left: 80px;
+}
+
+.container .footer
+{
+    position: relative;
+    top: -10px;
+    width: 100%;
+    height: 600px;
+}
+
+.container .footer .foott
+{
+    width: 300px;
+    height: 130px;
+    padding: 0px 15px;
+    color: #546285;
+    position: relative;
+    left: 120px;
+    top: 145px;
+}
+
+.container .footer .foott p
+{
+    position: relative;
+    top: 20px;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.container .footer .footer_text
+{
+    width: 100px;
+    height: 200px;
+    position: relative;
+    left:800px;
+    
+}
+
+.container .footer .footer_text ul 
+{
+    list-style-type: none;
+    
+}
+
+.container .footer .footer_text ul li
+{
+    font-size: 14px;
+    color: silver;
+}
+
+
+.container .footer .footer_text2
+{
+    width: 130px;
+    height: 200px;
+    position: relative;
+    left:1000px;
+    top: -200px;
+}
+
+.container .footer .footer_text2 ul 
+{
+    list-style-type: none;
+    
+}
+
+.container .footer .footer_text2 ul li
+{
+    font-size: 14px;
+    color: silver;
+}
+
+
+.footer_text3
+{
+    width: 120px;
+    height: 200px;
+    position: absolute;
+    left:1230px;
+    top: 130px;
+}
+
+.container .footer .footer_text3 ul 
+{
+    list-style-type: none;
+}
+
+.container .footer .footer_text3 ul li
+{
+    font-size: 14px;
+    color: silver;
+}
+
+.container .footer .footer_icon
+{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    left: 70rem;
+    top: -50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .footer .footer_icon .icon1
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #BBC4D1;
+    padding: 13.5px 16px;
+    border-radius: 50% ;
+    color: #BBC4D1;
+}
+
+.container .footer .footer_icon .icon1 i
+{
+    font-size: 20px;
+}
+
+.container .footer .footer_icon .icon2
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #BBC4D1;
+    padding: 14px 16px;
+    border-radius: 50% ;
+    color: #BBC4D1;
+}
+
+.container .footer .footer_icon .icon2 i
+{
+    font-size: 20px;
+}
+
+
+.container .footer .footer_icon .icon3
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #BBC4D1;
+    padding: 14px 14px;
+    border-radius: 50% ;
+    color: #BBC4D1;
+}
+
+
+.container .footer .footer_icon .icon3 i
+{
+    font-size: 20px;
+}
